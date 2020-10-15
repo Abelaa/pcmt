@@ -27,7 +27,8 @@ class AppKernel extends Kernel
     protected function registerProjectBundles()
     {
         return [
-            new \Flagbit\Bundle\TableAttributeBundle\FlagbitTableAttributeBundle()
+            new \Flagbit\Bundle\TableAttributeBundle\FlagbitTableAttributeBundle(),
+            new ManufacturerBundle\ManufacturerBundle()
         ];
     }
 

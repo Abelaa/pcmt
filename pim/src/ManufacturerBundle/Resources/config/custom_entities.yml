@@ -1,0 +1,3 @@
+custom_entities:
+  manufacturer:
+    entity_class: ManufacturerBundle\Entity\Manufacturer

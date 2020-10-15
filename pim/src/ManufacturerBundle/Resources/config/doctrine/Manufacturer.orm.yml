@@ -1,0 +1,31 @@
+ManufacturerBundle\Entity\Manufacturer:
+    type: entity
+    table: refdata_manufacturer
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code:
+            type: string
+            length: 255
+            nullable: false
+            unique: true
+        name:
+            type: string
+            length: 255
+            nullable: false
+        gln:
+            type: string
+            length: 255
+            nullable: false
+        countryoforigin:
+            type: string
+            length: 255
+            nullable: false
+        sn:
+            type: integer
+            nullable: false

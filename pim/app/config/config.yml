@@ -61,6 +61,9 @@ swiftmailer:
 
 akeneo_pim_structure:
     reference_data:
+        Manufacturer:
+            class: ManufacturerBundle\Entity\Manufacturer
+            type: simple
         AdditionalTradeItemClassificationCodeListCode:
             class: PcmtCoreBundle\Entity\ReferenceData\AdditionalTradeItemClassificationCodeListCode
             type: simple
